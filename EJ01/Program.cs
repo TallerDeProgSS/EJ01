@@ -13,7 +13,6 @@ namespace Ej01
             CapaPersistencia capaPersistencia = new CapaPersistencia();
 
             capaVista.Ejecutar(capaControlador, capaAplicacion, capaDominio, capaPersistencia);
-            Console.ReadKey();
         }
     }
 
